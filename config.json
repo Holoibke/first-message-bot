@@ -1,0 +1,57 @@
+{
+  "token": "",
+  "tokenEnvVar": "DISCORD_TOKEN",
+
+  "guilds": [],
+
+  "channels": [],
+
+  "ignoreChannels": [],
+
+  "ignoreUsers": [],
+
+  "ignoreRoles": [],
+
+  "ignoreBots": true,
+
+  "onlyForRecentJoiners": {
+    "enabled": false,
+    "withinMinutes": 1440
+  },
+
+  "seedExistingMembersOnFirstRun": true,
+
+  "message": "who the fuck are you",
+
+  "mentionUser": true,
+
+  "allowEveryoneMention": false,
+
+  "replyToMessage": false,
+
+  "deleteAfterSeconds": 0,
+
+  "deleteTriggerMessage": false,
+
+  "embed": {
+    "enabled": false,
+    "color": "#5865F2",
+    "title": "Welcome, {user}!",
+    "description": "",
+    "thumbnail": "{avatar}",
+    "image": "",
+    "footer": "",
+    "fields": []
+  },
+
+  "dryRun": false,
+
+  "dataFile": "data/state.json",
+
+  "logLevel": "info",
+
+  "resetCommand": {
+    "enabled": true,
+    "trigger": "!firstmsg-reset"
+  }
+}

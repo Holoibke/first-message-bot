@@ -1,0 +1,22 @@
+{
+  "name": "discord-first-message-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot that greets members the first time they send a message \u2014 everything is configured in config.json",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node src/index.js --check",
+    "dry-run": "node src/index.js --dry-run",
+    "debug": "node src/index.js --log-level debug",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.4.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0"
+  },
+  "license": "MIT"
+}
